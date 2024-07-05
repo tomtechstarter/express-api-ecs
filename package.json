@@ -1,0 +1,21 @@
+{
+  "name": "express-api-ecs",
+  "version": "1.0.0",
+  "description": "This is my test express api on ecs repo",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js",
+    "lint": "eslint ."
+  },
+  "author": "Tom",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.6.0",
+    "eslint": "^9.6.0",
+    "globals": "^15.8.0"
+  }
+}
