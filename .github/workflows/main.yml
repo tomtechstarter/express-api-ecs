@@ -1,0 +1,13 @@
+name: example-workflow
+
+on: push
+
+jobs:
+  copy: # kopiert den Repository Inhalt auf den Runner
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout
+      uses: actions/checkout@v4
+    - name: ls
+      run: |
+        ls
